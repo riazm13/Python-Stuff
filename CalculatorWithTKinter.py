@@ -44,6 +44,7 @@ class Calculator:
         elif character == "=":
             try:
                 self.expression = str(eval(self.expression))
+                
             except:
                 self.expression = "Error"
         else:
